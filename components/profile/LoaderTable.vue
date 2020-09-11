@@ -1,0 +1,277 @@
+<template>
+  <div>
+    <div class="row">
+      <div class="col-12">
+        <ContentLoader
+          :height="35"
+          primary-color="#d7d9db"
+        >
+          <rect
+            x="15"
+            y="20"
+            rx="3"
+            ry="3"
+            width="100"
+            height="11"
+          />
+        </ContentLoader>
+      </div>
+      <div class="col-md-12">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="30%"
+                      height="80%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+                <th scope="col">
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="100%"
+                    />
+                  </ContentLoader>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(i, index) in 6" :key="index">
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="30%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+                <td>
+                  <ContentLoader
+                    primary-color="#d7d9db"
+                  >
+                    <rect
+                      x="15"
+                      y="20"
+                      rx="3"
+                      ry="3"
+                      width="100%"
+                      height="50%"
+                    />
+                  </ContentLoader>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { ContentLoader } from 'vue-content-loader'
+export default {
+  name: 'LoaderTable',
+  components: {
+    ContentLoader
+  },
+  data () {
+    return {
+      v: 6
+    }
+  }
+}
+</script>
+
+<style scoped>
+</style>

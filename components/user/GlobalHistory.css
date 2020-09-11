@@ -1,0 +1,24 @@
+  .card-table {
+      min-height: 410px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+      margin-bottom: 24px;
+  }
+  
+  .title-konten {
+      padding: 30px 30px 0;
+      font-size: 25px;
+      color: #1e9cd7;
+      font-family: ElliotSans-Regular;
+  }
+  
+  .row-table {
+      padding: 15px;
+  }
+  
+  .text-style-table {
+      font-size: 14px;
+      padding: 12px;
+      font-family: ElliotSans-Regular;
+      color: #7f7f7f;
+  }

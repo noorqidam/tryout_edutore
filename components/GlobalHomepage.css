@@ -1,0 +1,133 @@
+.card{
+  min-height:376px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+}
+.img-fluid {
+  max-height: 218px;
+  border-radius: 12px;
+  min-height: 218px;
+}
+.title-book {
+  font-size: 13px;
+  color:#404040;
+  font-family:ElliotSans-Medium;
+  min-height: 40px;
+}
+.title-penyelenggara {
+  font-size:12px;
+  color:#808080;
+  font-family:ElliotSans-Medium;
+  min-height: 0 !important;
+}
+.title-date {
+  color:#557cbf;
+  font-size: 11px;
+  border: 1px solid #557cbf;
+  font-family: ElliotSans-Medium;
+  padding: 5px;
+  border-radius:8px
+}
+.button-detail {
+  background-color:#557cbf;
+  max-width: 97px;
+  height: 30px;
+  border-radius: 8px;
+}
+.button-detail:hover {
+  background-color: #0069d9;
+}
+.title-button-detail {
+  font-size:10px;
+  color:#fff;
+  font-family:ElliotSans-Medium
+}
+@media (max-width: 330.98px) {
+  .title-button-detail {
+    margin-top: -5px;
+  }
+  .button-detail {
+    height: 30px;
+  }
+}
+ @media (max-width: 375.98px) {
+  .title-date {
+    margin-top: -10px;
+  }
+}
+@media (max-width: 464.98px) {
+  .text-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .title-book {
+    min-height: 55px !important;
+  }
+  .title-penyelenggara {
+    min-height: 40px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .button-detail {
+    height: 20px;
+  }
+  .title-button-detail {
+    margin-top: -3px;
+  }
+  .title-date {
+    padding: 3px;
+    margin-top: -10px;
+  }
+  .title-book {
+    min-height: 35px;
+  }
+  .title-penyelenggara {
+    min-height: 40px;
+  }
+}
+@media (max-width: 767.98px) {
+  .card{
+    min-height: 100%;
+    margin-bottom: 5px;
+  }
+  .img-fluid {
+    /* max-height: 100px; */
+    min-height: 100px;
+  }
+  .title-date {
+    min-height: 0 !important;
+    padding: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .card{
+    min-height: 100%;
+    margin-bottom: 5px;
+  }
+  .img-fluid {
+    /* max-height: 100px; */
+    min-height: 100px;
+  }
+  .title-penyelenggara {
+    min-height: 35px;
+  }
+  .title-book {
+    min-height: 55px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .title-date {
+    min-height: 40px;
+  }
+ }
+img[lazy=loading] {
+  /*your style here*/
+  background-color: rgb(194, 194, 194);
+}
+img[lazy=error] {
+  /*your style here*/
+  background-color: rgb(144, 105, 105)
+}

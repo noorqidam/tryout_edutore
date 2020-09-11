@@ -1,0 +1,49 @@
+.card-table {
+    min-height: 410px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+}
+
+.title-konten {
+    padding: 30px 30px 0;
+    font-size: 25px;
+    color: #1e9cd7;
+    font-family: ElliotSans-Regular;
+}
+
+.row-book {
+    padding: 15px;
+}
+
+.books {
+    margin-bottom: 10px;
+}
+
+.title-book {
+    font-size: 13px;
+    color: #404040;
+    margin: 14px 0;
+    font-family: ElliotSans-Regular;
+    text-decoration: none;
+}
+
+.title-book:hover {
+    font-size: 13px;
+    color: #404040;
+    margin: 14px 0;
+    font-family: ElliotSans-Regular;
+}
+
+.default-image {
+    width: 100%;
+    min-height: 155.5px;
+    border-radius: 5px;
+}
+
+.keranjang-kosong {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}

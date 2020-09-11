@@ -1,0 +1,43 @@
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-bottom {
+  width: 80%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto
+}
+.bg-text {
+  color: rgba(30,156,215,1);
+  text-align: left;
+  font-family: Elliot Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(30,156,215,1);
+}
+.myCard {
+  min-height:500px;
+  width:330px;
+  box-shadow:3px 6px 6px 6px;
+  border-radius:15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px
+}
+.card-bottom {
+  width: 80%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto
+}
+.bg-primarys {
+  padding: 7px;
+  background-color: #1e9cd7;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300
+}
